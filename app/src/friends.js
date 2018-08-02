@@ -8,7 +8,7 @@ $(".submit").on("click", function (event) {
       event.preventDefault();
   }
   //grabbing user input
-  let newFriend = {
+  var newFriend = {
       name: $("#friendName").val().trim(),
       photo: $("#friendPhoto").val().trim(),
       scores: [
